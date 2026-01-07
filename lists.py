@@ -1,3 +1,7 @@
+# to define a list
+l = [] # to define an empty list or
+l1 = list()
+
 server_1 = "172.10.33.26"
 server_2 = "172.10.33.26"
 
@@ -13,7 +17,11 @@ print(server_2)
 simple_slice = servers[1:7:2] #[1, 1+2, 3+2, 5+2 ]
 print(simple_slice)
 simple_slice1 = servers[1:]
-print(simple_slice1)
+print("1",simple_slice1)
+simple_slice2 = servers[:5]
+print("2",simple_slice2)
+simple_slice3 = servers[:]
+print("3",simple_slice3)
 
 #Negative slicing
 negative_slice = servers[-1:-4:-2]
