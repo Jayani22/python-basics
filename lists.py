@@ -12,6 +12,8 @@ print(server_2)
 # slicing (start_index:end_index: step_size)
 simple_slice = servers[1:7:2] #[1, 1+2, 3+2, 5+2 ]
 print(simple_slice)
+simple_slice1 = servers[1:]
+print(simple_slice1)
 
 #Negative slicing
 negative_slice = servers[-1:-4:-2]
