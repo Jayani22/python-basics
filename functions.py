@@ -43,5 +43,7 @@ def calc(a, b, operation):
     if operation == "div":
         return a % b
     
-values = input("Enter 2 numbers:")
+a, b = tuple(map(int, input("Enter 2 numbers: ").split()))
 operation=input("Enter operation to perform:")
+res = calc(a, b, operation)
+print(res)
